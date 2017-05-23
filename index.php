@@ -7,10 +7,10 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Proy2305</title>
     </head>
     <body>
-        <form method="post" action="modulos/prod_agregar.php">
+        <form method="post" action="usuario.php">
             <div><label>Nombre:</label><input type="text" name="nombre"></div>
             <div><label>Usuario:</label><input type="text" name="usuario"></div>
             <div><label>Password:</label><input type="password" name="password"></div>
