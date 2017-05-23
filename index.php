@@ -10,8 +10,11 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+        <form method="post" action="modulos/prod_agregar.php">
+            <div><label>Nombre:</label><input type="text" name="nombre"></div>
+            <div><label>Usuario:</label><input type="text" name="usuario"></div>
+            <div><label>Password:</label><input type="password" name="password"></div>
+            <input type="submit">
+        </form>
     </body>
 </html>
